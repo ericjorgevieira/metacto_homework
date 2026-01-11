@@ -14,7 +14,6 @@ jest.spyOn(Alert, 'alert');
 const mockNavigation = {
   navigate: jest.fn(),
   goBack: jest.fn(),
-  replace: jest.fn(),
 } as any;
 
 const mockSaveUser = jest.fn();
@@ -92,19 +91,8 @@ describe('UsernameScreen', () => {
     });
   });
 
-  test('should navigate to FeatureList on success', async () => {
-    const mockUser = { id: 1, username: 'testuser' };
-    (api.createOrGetUser as jest.Mock).mockResolvedValueOnce(mockUser);
-
-    const { getByPlaceholderText, getByText } = render(<UsernameScreen navigation={mockNavigation} />);
-
-    fireEvent.changeText(getByPlaceholderText('Username'), 'testuser');
-    fireEvent.press(getByText('Continue'));
-
-    await waitFor(() => {
-      expect(mockNavigation.replace).toHaveBeenCalledWith('FeatureList');
-    });
-  });
+  // Navigation to FeatureList happens automatically via React Navigation's
+  // conditional rendering when the user context changes - no need to test here
 
   test('should show Alert on API error', async () => {
     const error = new Error('Network error');

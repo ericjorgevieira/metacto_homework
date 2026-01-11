@@ -27,7 +27,7 @@ const UsernameScreen: React.FC<Props> = ({ navigation }) => {
     try {
       const user = await createOrGetUser(username.trim());
       await saveUser(user);
-      navigation.replace('FeatureList');
+      // Navigation will update automatically when user context changes
     } catch (error) {
       Alert.alert('Error', `Failed to create user: ${(error as Error).message}`);
     } finally {
