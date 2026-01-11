@@ -1,0 +1,21 @@
+Prompt 1:
+"For each prompt I give you, write to a file prompts.txt, so I can audit the work."
+
+Prompt 2:
+"I now want to create a small project to practice my skills. I would appreciate your help in planning the project's creation before we move on to execution. The idea is to develop a small app using React Native (and Expo), a Node.js API (it can be with Express), and a database (SQLite). The project is a feature voting system, allowing users to post feature ideas and vote on other users' ideas (it can be a simple "like" and "dislike")."
+
+Prompt 3:
+"I solved the env problem with pip3 and installed all npm packages on /api folder. Now we can continue."
+
+Prompt 4:
+"Yes, you can implement. but we will use Typescript on this project. And I prefer separated files for styles."
+
+Prompt 5:
+"Perfect, now I want to create unit tests for every use case of this project. We can use Jest for that. Please make a plan before implement it."
+
+Prompt 6:
+"Update the README and continue with mobile tests."
+
+Prompt 7:
+"Add tests for the screen components to improve overall coverage"
+
