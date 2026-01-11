@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1768148249711" clover="3.2.0">
+  <project timestamp="1768148249711" name="All files">
+    <metrics statements="199" coveredstatements="168" conditionals="59" coveredconditionals="49" methods="49" coveredmethods="42" elements="307" coveredelements="259" complexity="0" loc="199" ncloc="199" packages="6" files="12" classes="12"/>
+    <package name="components">
+      <metrics statements="20" coveredstatements="20" conditionals="15" coveredconditionals="15" methods="6" coveredmethods="6"/>
+      <file name="FeatureCard.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/components/FeatureCard.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="40" type="stmt"/>
+      </file>
+      <file name="FeatureForm.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/components/FeatureForm.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="18" count="98" type="stmt"/>
+        <line num="19" count="98" type="stmt"/>
+        <line num="20" count="98" type="stmt"/>
+        <line num="22" count="98" type="stmt"/>
+        <line num="23" count="20" type="cond" truecount="4" falsecount="0"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="34" count="15" type="stmt"/>
+        <line num="38" count="98" type="stmt"/>
+      </file>
+      <file name="VoteButtons.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/components/VoteButtons.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="69" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="context">
+      <metrics statements="27" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="UserContext.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/context/UserContext.tsx">
+        <metrics statements="27" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="useUser.ts" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/hooks/useUser.ts">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens">
+      <metrics statements="104" coveredstatements="102" conditionals="38" coveredconditionals="32" methods="26" coveredmethods="25"/>
+      <file name="CreateFeatureScreen.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/screens/CreateFeatureScreen.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="19" count="7" type="stmt"/>
+        <line num="20" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="7" type="stmt"/>
+      </file>
+      <file name="EditFeatureScreen.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/screens/EditFeatureScreen.tsx">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="24" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="39" count="7" type="stmt"/>
+      </file>
+      <file name="FeatureDetailScreen.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/screens/FeatureDetailScreen.tsx">
+        <metrics statements="25" coveredstatements="25" conditionals="20" coveredconditionals="15" methods="6" coveredmethods="6"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="21" type="stmt"/>
+        <line num="22" count="21" type="stmt"/>
+        <line num="23" count="21" type="stmt"/>
+        <line num="25" count="21" type="stmt"/>
+        <line num="27" count="21" type="stmt"/>
+        <line num="28" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="63" count="21" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="67" count="21" type="stmt"/>
+        <line num="68" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="79" count="3" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="93" count="21" type="stmt"/>
+      </file>
+      <file name="FeatureListScreen.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/screens/FeatureListScreen.tsx">
+        <metrics statements="38" coveredstatements="36" conditionals="8" coveredconditionals="7" methods="12" coveredmethods="11"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="42" type="stmt"/>
+        <line num="28" count="42" type="stmt"/>
+        <line num="29" count="42" type="stmt"/>
+        <line num="30" count="42" type="stmt"/>
+        <line num="32" count="42" type="stmt"/>
+        <line num="33" count="44" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="43" type="stmt"/>
+        <line num="36" count="43" type="stmt"/>
+        <line num="37" count="35" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="36" type="stmt"/>
+        <line num="42" count="36" type="stmt"/>
+        <line num="46" count="42" type="stmt"/>
+        <line num="48" count="42" type="stmt"/>
+        <line num="52" count="42" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="42" type="stmt"/>
+        <line num="58" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="61" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="72" count="42" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="90" count="42" type="cond" truecount="2" falsecount="0"/>
+        <line num="91" count="17" type="stmt"/>
+        <line num="98" count="25" type="stmt"/>
+        <line num="114" count="42" type="stmt"/>
+        <line num="116" count="28" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="119" count="3" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+      </file>
+      <file name="UsernameScreen.tsx" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/screens/UsernameScreen.tsx">
+        <metrics statements="16" coveredstatements="16" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="36" type="stmt"/>
+        <line num="17" count="36" type="stmt"/>
+        <line num="18" count="36" type="stmt"/>
+        <line num="20" count="36" type="stmt"/>
+        <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="26" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="28" count="7" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="7" type="stmt"/>
+        <line num="38" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="api.ts" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/services/api.ts">
+        <metrics statements="26" coveredstatements="26" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="58" count="6" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="67" count="6" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="storage.ts" path="/Users/ericoliveira/Documents/htdocs/interview_tests/metacto_homework/mobile/src/utils/storage.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
