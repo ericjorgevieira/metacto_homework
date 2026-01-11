@@ -12,7 +12,7 @@ metacto_homework/
 │   │   ├── database/       # Database setup and schema
 │   │   └── middleware/     # Validation middleware
 │   ├── server.js           # API entry point
-│   └── database.sqlite     # SQLite database file
+│   └── database.sqlite     # SQLite database (auto-generated, not in git)
 │
 ├── mobile/                 # React Native mobile app
 │   ├── src/
@@ -257,14 +257,24 @@ The API tests use a separate test database (`database.test.sqlite`) that is auto
 3. **Feature Detail**: View full details, edit/delete (if owner)
 4. **Create/Edit Feature**: Add or modify feature ideas
 
-## Database Schema
+## Database
 
-### users
+The application uses SQLite with the `better-sqlite3` package.
+
+### Automatic Setup
+
+**No manual database setup required!** The database file (`api/database.sqlite`) is automatically created when the API server starts for the first time. The schema is initialized from `api/src/database/schema.sql`.
+
+**Note:** The `database.sqlite` file is excluded from version control (`.gitignore`) as it contains local development data. Each developer/environment will have their own database instance.
+
+### Schema
+
+#### users
 - id (INTEGER PRIMARY KEY)
 - username (TEXT UNIQUE)
 - created_at (DATETIME)
 
-### features
+#### features
 - id (INTEGER PRIMARY KEY)
 - title (TEXT)
 - description (TEXT)
@@ -272,7 +282,7 @@ The API tests use a separate test database (`database.test.sqlite`) that is auto
 - created_at (DATETIME)
 - updated_at (DATETIME)
 
-### votes
+#### votes
 - id (INTEGER PRIMARY KEY)
 - feature_id (INTEGER FK)
 - user_id (INTEGER FK)
@@ -286,7 +296,7 @@ The API tests use a separate test database (`database.test.sqlite`) that is auto
 - Styles are separated into `.styles.ts` files
 - The API uses synchronous better-sqlite3 for simplicity
 - No authentication tokens - username-only (suitable for learning)
-- SQLite database is created automatically on first run
+- SQLite database is created automatically on first run (not in version control)
 
 ## Troubleshooting
 
